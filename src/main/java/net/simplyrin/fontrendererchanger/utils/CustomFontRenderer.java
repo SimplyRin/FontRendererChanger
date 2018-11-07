@@ -45,8 +45,6 @@ public class CustomFontRenderer extends FontRenderer {
 			Reflect.on(this).call("resetStyles");
 		}
 
-		text = text.replace("SiroQ", "あほ");
-
 		int i;
 		if (dropShadow) {
 			try {
